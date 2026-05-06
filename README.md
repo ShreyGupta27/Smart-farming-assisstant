@@ -4,19 +4,6 @@ A comprehensive machine learning project designed to assist farmers and agricult
 
 ---
 
-## 📋 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Modules](#modules)
-- [Tech Stack](#tech-stack)
-- [Dataset Sources](#dataset-sources)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Results Summary](#results-summary)
-- [Future Improvements](#future-improvements)
-
----
-
 ## Project Overview
 
 AgriAI brings together five machine learning notebooks that together form an end-to-end intelligent agriculture system. Each module tackles a distinct problem in precision farming, using classical ML, ensemble methods, and deep learning where appropriate.
@@ -114,32 +101,7 @@ Each notebook is self-contained and designed to run on Google Colab or Kaggle. S
 3. For `Crop_Disease_Detection.ipynb`, configure your `kaggle.json` API key to download the PlantVillage dataset automatically.
 4. Run cells top to bottom.
 
-### Running Locally
-
-```bash
-git clone https://github.com/your-username/agri-ai.git
-cd agri-ai
-pip install -r requirements.txt
-jupyter notebook
-```
-
 > **Note:** For the disease detection notebook, ensure you have a GPU available or reduce the model complexity for CPU-only environments.
-
----
-
-## Project Structure
-
-```
-agri-ai/
-│
-├── Crop_Recommendation.ipynb          # Crop selection using Random Forest
-├── Crop_Yield_Prediction.ipynb        # Yield prediction with multi-model comparison
-├── Crop_Disease_Detection.ipynb       # CNN-based leaf disease detection
-├── Fertilizer_Prediction.ipynb        # Fertilizer recommendation (20+ models)
-├── Intelligent_Irrigation_System.ipynb # Pump on/off prediction from sensor data
-│
-└── README.md
-```
 
 ---
 
@@ -157,12 +119,15 @@ agri-ai/
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+Copyright (c) 2026 Shrey Gupta. All rights reserved.
+
+Unauthorized copying, modification, or distribution of this software, via any medium, is strictly prohibited.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
 ## Acknowledgements
 
-- [PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) by Abdallah Ali
 - [Kaggle](https://www.kaggle.com) for hosting the datasets
 - Scikit-learn, TensorFlow, and the open-source ML community
